@@ -70,8 +70,9 @@ def convert_sample(idx, sample):
            current_stroke = []
     print "Exporting {0} strokes for symbol {1} to {2}".format(len(strokes), sample,  outfile)
     # write it as json
+    rep = {"digit": sample, "instance" : num, "count": len(strokes), "strokes": strokes}
     with open(outfile, 'w') as out:
-        json.dump(strokes, out)
+        json.dump(rep, out)
 
 
 
