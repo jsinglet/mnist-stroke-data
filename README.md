@@ -181,14 +181,6 @@ Other attributes:
 
 To build the dataset, execute the script `strokedata.py` contained in the root of this distribution. 
 
+# Citing this Data Set
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-88910845-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.201035.svg)](https://doi.org/10.5281/zenodo.201035)
